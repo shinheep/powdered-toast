@@ -81,6 +81,7 @@ nav{
 .history-text{
     font-family: "Roboto";
     color: #844646;
+    font-weight: bold;
 }
 
 .ways-to-eat{
@@ -97,6 +98,7 @@ nav{
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
+    height: 330px;
   }
   
   .mySlides {
@@ -112,13 +114,12 @@ nav{
   .next {
     cursor: pointer;
     position: absolute;
-    bottom: 0;
+    bottom: 23%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     user-select: none;
     -webkit-user-select: none;
     border-radius: 50%;
@@ -136,6 +137,13 @@ nav{
   .prev:hover,
   .next:hover {
     background-color: #844646;
+  }
+
+  .toast-description {
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 3em;
   }
 
 
@@ -167,6 +175,165 @@ nav{
     justify-content: center;
   }
 
+.amazing-everytime{
+    margin: 20px;
+}
+
+.amazing-everytime-title{
+    font-family: 'Astloch', cursive;
+    color: #844646;
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.amazing-everytime-header{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.amazing-everytime-text{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.video{
+    margin: 20px;
+}
+
+#video-credit{
+    text-decoration: underline;
+    color: #844646;
+}
+
+.video-pic{
+    border-radius: 20px;
+}
+
+.pairing-is-caring{
+    margin: 20px;
+    text-align: center;
+}
+
+.pairing-is-caring-title{
+    font-family: 'Astloch', cursive;
+    color: #844646;
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.pairing-is-caring-text{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.pairings1{
+    display: inline-flex;
+}
+
+.pairings2{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.pairing-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.pairing{
+    width: 150px;
+    height: 230px;
+}
+
+.pairing-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin: 13px;
+}
+
+.pairing-description{
+    font-family: "Roboto";
+    color: gray;
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+
+.newsletter{
+    margin: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    padding-top: 30px;
+    background: #844646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.stay-in-touch{
+    font-size: 30px;
+    font-family: 'Astloch', cursive;
+    color: white;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#email{
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+}
+
+button{
+    background: #844646;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#toast-footer{
+    width: 74px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+#footer-text{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 
 @media only screen and (min-width: 678px) {
     
