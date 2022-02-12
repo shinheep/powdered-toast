@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 body{
@@ -18,9 +19,13 @@ body{
     width: 237px;
     height: 306px;
     position: absolute;
-    margin: 97px 41px;
-    display: flex;
-    justify-content: center;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    margin: auto;
 }
 
 header{
@@ -28,6 +33,7 @@ header{
     background: url("Assets/banner-toast.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(100%);
     
 }
 
@@ -71,15 +77,12 @@ nav{
 
 .about-header{
     text-transform: uppercase;
-    font-family: "Roboto"
 }
 
 .about-text{
-    font-family: "Roboto"
 }
 
 .history-text{
-    font-family: "Roboto";
     color: #844646;
     font-weight: bold;
 }
@@ -103,6 +106,15 @@ nav{
   
   .mySlides {
     display: none;
+  }
+
+  .slide-pic{
+      border-radius: 16px;
+      position: relative;
+      left: 0;
+      right: 0;
+      display: block;
+      margin: auto;
   }
   
   .cursor {
@@ -144,6 +156,16 @@ nav{
     padding: 8px 12px;
     position: absolute;
     bottom: 3em;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .slide-title{
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 3px;
   }
 
 
@@ -162,6 +184,14 @@ nav{
   /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
+    border-radius: 16px;
+    width: 56px;
+    height: 56px;
+    top: 0;
+    right: 0;
+
+    display: block;
+    margin: auto;
   }
   
   .active,
@@ -177,6 +207,7 @@ nav{
 
 .amazing-everytime{
     margin: 20px;
+    position: relative;
 }
 
 .amazing-everytime-title{
@@ -188,14 +219,12 @@ nav{
 
 .amazing-everytime-header{
     text-transform: uppercase;
-    font-family: "Roboto";
     font-weight: bold;
     letter-spacing: 3px;
     margin-top: 10px;
 }
 
 .amazing-everytime-text{
-    font-family: "Roboto";
     font-size: 15px;
 }
 
@@ -210,12 +239,15 @@ nav{
 
 .video-pic{
     border-radius: 20px;
+    width: 100%;
 }
 
 .pairing-is-caring{
     margin: 20px;
     text-align: center;
+    position: relative;
 }
+
 
 .pairing-is-caring-title{
     font-family: 'Astloch', cursive;
@@ -225,17 +257,13 @@ nav{
 }
 
 .pairing-is-caring-text{
-    font-family: "Roboto";
     font-size: 15px;
 }
 
-.pairings1{
-    display: inline-flex;
-}
-
-.pairings2{
-    display: inline-flex;
-    margin-top: 20px;
+.pairings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pairing-pic{
@@ -254,13 +282,11 @@ nav{
 .pairing-title{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-family: "Roboto";
     font-weight: bold;
     margin: 13px;
 }
 
 .pairing-description{
-    font-family: "Roboto";
     color: gray;
     font-size: 14px;
     margin-left: 13px;
@@ -324,11 +350,11 @@ footer{
     width: 74px;
     height: 82px;
     margin: 0 auto;
+    filter: invert(30%) sepia(6%) saturate(3661%) hue-rotate(314deg) brightness(100%) contrast(87%);
 }
 
 #footer-text{
     text-transform: uppercase;
-    font-family: "Roboto";
     font-size: 10px;
     color: gray;
     font-weight: bold;
@@ -336,5 +362,7 @@ footer{
 }
 
 @media only screen and (min-width: 678px) {
-    
+    /* .container{
+        display: none;
+    } */
 }
