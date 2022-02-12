@@ -54,11 +54,19 @@ nav{
 .about{
     text-align: center;
     margin: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    margin-top: -30px;
+    background: white;
 }
 
 .about-title{
-    font-family: "Astloch";
+    font-family: 'Astloch', cursive;
     color: #844646;
+    font-size: 44px;
+    line-height: 56px;
 }
 
 .about-header{
@@ -74,6 +82,90 @@ nav{
     font-family: "Roboto";
     color: #844646;
 }
+
+.ways-to-eat{
+    margin: 20px;
+}
+
+.ways-to-eat-title{
+    font-family: 'Astloch', cursive;
+    color: #844646;
+    font-size: 44px;
+    line-height: 56px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 50%;
+    background: #844646;
+  }
+
+  .prev {
+      background: #844646;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: #844646;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* 3 columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+    border-bottom: 2px solid #844646;
+  }
+
+  .row{
+    display: flex;  
+    justify-content: center;
+  }
 
 
 @media only screen and (min-width: 678px) {

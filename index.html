@@ -35,13 +35,53 @@
     </header>
 
     <main>
-        <container class="about">
-            <h1 class="about-title">About powdered toast</h1>
+        <div class="about">
+            <div class="about-title">About <br/>powdered<br/> toast</div>
             <h4 class="about-header"> The King of Sunrise Flavor</h4>
             <p class="about-text">French toast is a breakfast dish made of sliced bread soaked in beaten eggs and typically milk, then pan fried. Powdered toast takes that classic and brings it to the next level. A plane of flavor not known until the 1860's when an American Baker by the name of Ren McStimpy accidentally spilled confectioners' sugar (today known as powdered sugar) on his freshly cooked french toast. After adding some locally crafted maple syrup...</p>
 
             <p class="history-text">The rest is history.</p>
-        </container>
+        </div>
+
+        <div class="ways-to-eat">
+            <div class="ways-to-eat-title">Ways to eat<br/> powdered toast</div>
+            <p class="ways-to-eat-text">There are countless ways to prepare a good meal of powdered toast. Here are just a few of the most popular methods.</p>
+        </div>
+
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <img src="assets/make-it-1-maple.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+                <img src="assets/make-it-2-sans.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+                <img src="assets/make-it-3-fruit.jpg" style="width:100%">
+            </div>
+
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="assets/make-it-1-maple-thumb.jpg" style="width:100%" onclick="currentSlide(1)" alt="maple">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="assets/make-it-2-sans-thumb.jpg" style="width:100%" onclick="currentSlide(2)" alt="sans">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="assets/make-it-3-fruit-thumb.jpg" style="width:100%" onclick="currentSlide(3)" alt="fruit">
+              </div>
+            </div>
+          </div>
 
     </main>
 
