@@ -12,19 +12,28 @@
     
 </head>
 <body>
+    
+
+    
     <header>
+          
         <nav>
             <img id="nav-icon" src="assets/logo-navigation.svg" alt="nav-icon"/>
 
-            <img id="menu-open" src="assets/menu.svg" alt="menu-open"/>
-
             <div id="myLinks">
                 <a href="#about">About</a>
-                <a href="#eatit">Eat it</a>
-                <a href="#makeit">Make it</a>
-                <a href="#pairit">Pair it</a>
+                <a href="#ways-to-eat">Eat it</a>
+                <a href="#amazing-everytime">Make it</a>
+                <a href="#pairing-is-caring">Pair it</a>
                 <a href="#newsletter">Newsletter</a>
             </div>
+
+            <div class="hamburger">
+                <img id="menu-open" src="assets/menu.svg" alt="menu-open"/>
+                <img id="menu-close" src="assets/menu-close.svg" alt="menu-close"/>
+            </div>
+
+            
 
         </nav>
 
@@ -35,7 +44,7 @@
     </header>
 
     <main>
-        <div class="about">
+        <div id="about">
             <div class="about-title">About <br/>powdered<br/> toast</div>
             <h4 class="about-header"> The King of Sunrise Flavor</h4>
             <p class="about-text">French toast is a breakfast dish made of sliced bread soaked in beaten eggs and typically milk, then pan fried. Powdered toast takes that classic and brings it to the next level. A plane of flavor not known until the 1860's when an American Baker by the name of Ren McStimpy accidentally spilled confectioners' sugar (today known as powdered sugar) on his freshly cooked french toast. After adding some locally crafted maple syrup...</p>
@@ -43,63 +52,82 @@
             <p class="history-text">The rest is history.</p>
         </div>
 
-        <div class="ways-to-eat">
-            <div class="ways-to-eat-title">Ways to eat<br/> powdered toast</div>
-            <p class="ways-to-eat-text">There are countless ways to prepare a good meal of powdered toast. Here are just a few of the most popular methods.</p>
+        <div class="ways-to-eat-container">
+            <div id="ways-to-eat">
+                <div class="ways-to-eat-title">Ways to eat<br/> powdered toast</div>
+                <p class="ways-to-eat-text">There are countless ways to prepare a good meal of powdered toast. Here are just a few of the most popular methods.</p>
+
+                <div class="column desktop-thumb">
+                    <div class="row">
+                        <img class="demo cursor" src="assets/make-it-1-maple-thumb.jpg" style="width:56px" onclick="currentSlide(1)" alt="Maple Perfection">
+                        <div class="caption"><span class="slide-title">Maple Perfection</span><br/>The crowd favorite, devoured by billions</span> </div>
+                    </div>
+                    <div class="row">
+                        <img class="demo cursor" src="assets/make-it-2-sans-thumb.jpg" style="width:56px" onclick="currentSlide(2)" alt="Sans Syrup">
+                        <div class="caption"><span class="slide-title">Sans Syrup</span><br/>The minimalist approach to powdered cuisine</span> </div>
+                    </div>
+                    <div class="row">
+                        <img class="demo cursor" src="assets/make-it-3-fruit-thumb.jpg" style="width:56px" onclick="currentSlide(3)" alt="Fancy Fruit">
+                        <div class="caption"><span class="slide-title">Fancy Fruit</span><br/>Just add fresh strawberries and blackberries</span> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="toast-description"><span class="slide-title">Maple Perfection</span> <br/> The crowd favorite, devoured by billions</div>
+                    <img class="slide-pic" src="assets/make-it-1-maple.jpg" >
+                </div>
+            
+                <div class="mySlides">
+                    <div class="toast-description"><span class="slide-title">Sans Syrup</span> <br/>The minimalist approach to powdered cuisine </div>
+                    <img class="slide-pic" src="assets/make-it-2-sans.jpg"  alt="Maple">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="toast-description"><span class="slide-title">Fancy Fruit</span><br/>Just add fresh strawberries and blackberries</div>
+                    <img class="slide-pic" src="assets/make-it-3-fruit.jpg" >
+                </div>
+
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            
+                <!-- Thumbnail images -->
+                <div class="row thumbs">
+                    <div class="column">
+                        <img class="demo cursor" src="assets/make-it-1-maple-thumb.jpg" style="width:56px" onclick="currentSlide(1)" alt="Maple Perfection">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/make-it-2-sans-thumb.jpg" style="width:56px" onclick="currentSlide(2)" alt="Sans Syrup">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/make-it-3-fruit-thumb.jpg" style="width:56px" onclick="currentSlide(3)" alt="Fancy Fruit">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="container">
 
-            <!-- Full-width images with number text -->
-            <div class="mySlides">
-                <div class="toast-description"><span class="slide-title">Maple Perfection</span> <br/> The crowd favorite, devoured by billions</div>
-                <img class="slide-pic" src="assets/make-it-1-maple.jpg" style="width:320px">
-            </div>
-          
-            <div class="mySlides">
-                <div class="toast-description"><span class="slide-title">Sans Syrup</span> <br/>The minimalist approach to powdered cuisine </div>
-                <img class="slide-pic" src="assets/make-it-2-sans.jpg" style="width:320px" alt="Maple">
-            </div>
-          
-            <div class="mySlides">
-                <div class="toast-description"><span class="slide-title">Fancy Fruit</span><br/>Just add fresh strawberries and blackberries</div>
-                <img class="slide-pic" src="assets/make-it-3-fruit.jpg" style="width:320px">
+        <div class="makeit">
+            <div id="amazing-everytime">
+                <div class="amazing-everytime-title">How to make it <br/>amazing every time</div>
+                <div class="amazing-everytime-header">Keep it simple</div>
+                <p class="amazing-everytime-text">Here's a 5 minute video on how to make classic powdered toast in any kitchen.</p>
+
+                <p>By <span id="video-credit">Crouton Crackerjacks</span></p>
             </div>
 
-          
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          
-          
-            <!-- Thumbnail images -->
-            <div class="row">
-              <div class="column">
-                <img class="demo cursor" src="assets/make-it-1-maple-thumb.jpg" style="width:56px" onclick="currentSlide(1)" alt="maple">
-              </div>
-              <div class="column">
-                <img class="demo cursor" src="assets/make-it-2-sans-thumb.jpg" style="width:56px" onclick="currentSlide(2)" alt="sans">
-              </div>
-              <div class="column">
-                <img class="demo cursor" src="assets/make-it-3-fruit-thumb.jpg" style="width:56px" onclick="currentSlide(3)" alt="fruit">
-              </div>
-            </div>
-          </div>
-
-
-        <div class="amazing-everytime">
-            <div class="amazing-everytime-title">How to make it <br/>amazing every time</div>
-            <div class="amazing-everytime-header">Keep it simple</div>
-            <p class="amazing-everytime-text">Here's a 5 minute video on how to make classic powdered toast in any kitchen.</p>
-        </div>
-
-        <div class="video">
-            <p>By <span id="video-credit">Crouton Crackerjacks</span></p>
-            <img class="video-pic" src="assets/video-how-to.jpg" />
+                
+                <img class="video-pic" src="assets/video-how-to.jpg" />
         </div>
 
 
-        <div class="pairing-is-caring">
+        <div id="pairing-is-caring">
             <div class="pairing-is-caring-title">Pairing is caring</div>
             <p class="pairing-is-caring-text">Sometimes you need a big breakfast to drown out the sorrows of yesterday. Here are the best foods to pair with powdered toast.</p>
         </div>
@@ -134,7 +162,7 @@
 
         </div>
 
-        <div class="newsletter">
+        <div id="newsletter">
             <div class="stay-in-touch">Stay in touch with the toastiest newsletter</div>
             <div>
                 <form class="sign-up">

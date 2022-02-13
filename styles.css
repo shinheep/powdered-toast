@@ -10,8 +10,17 @@ body{
 #nav-icon{
     width: 40px;
     height: 44px;
-    color: white;
     filter: invert(100%);
+    margin: 10px;
+}
+
+#menu-open{
+    margin: 10px;
+}
+
+#menu-close{
+    display: none;
+    margin: 10px;
 }
 
 #banner{
@@ -44,28 +53,29 @@ nav{
 
 #myLinks{
     text-align: center;
-    position: absolute;
-    background: #844646;
-    width: 100%;
     display: none;
 }
 
 #myLinks a{
-    display: inline-block;
     width: 100%;
     color: white;
+    letter-spacing: 2px;
     text-decoration: none;
 }
 
-.about{
+#about{
     text-align: center;
-    margin: 10px;
-    border-radius: 20px;
+    width: 320px;
+    border-radius: 16px;
     margin: 10px;
     padding: 10px;
+    padding-top: 48px;
     position: relative;
-    margin-top: -30px;
+    margin: 0 auto;
+    margin-top: -64px;
+    margin-bottom: 120px;
     background: white;
+    
 }
 
 .about-title{
@@ -87,8 +97,10 @@ nav{
     font-weight: bold;
 }
 
-.ways-to-eat{
+#ways-to-eat{
     margin: 20px;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .ways-to-eat-title{
@@ -98,11 +110,20 @@ nav{
     line-height: 56px;
 }
 
+.ways-to-eat-text{
+    font-family: 16px;
+    line-height: 22px;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
     height: 330px;
   }
+
+.desktop-thumb{
+    display: none;
+}
   
   .mySlides {
     display: none;
@@ -110,6 +131,7 @@ nav{
 
   .slide-pic{
       border-radius: 16px;
+      width: 320px;
       position: relative;
       left: 0;
       right: 0;
@@ -189,7 +211,6 @@ nav{
     height: 56px;
     top: 0;
     right: 0;
-
     display: block;
     margin: auto;
   }
@@ -205,9 +226,10 @@ nav{
     justify-content: center;
   }
 
-.amazing-everytime{
-    margin: 20px;
+#amazing-everytime{
     position: relative;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .amazing-everytime-title{
@@ -230,6 +252,7 @@ nav{
 
 .video{
     margin: 20px;
+    width: 50%;
 }
 
 #video-credit{
@@ -239,13 +262,20 @@ nav{
 
 .video-pic{
     border-radius: 20px;
-    width: 100%;
+    width: 320px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.pairing-is-caring{
-    margin: 20px;
+#pairing-is-caring{
     text-align: center;
     position: relative;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 48px;
 }
 
 
@@ -271,7 +301,11 @@ nav{
     height: 150px;
     border-radius: 16px;
     padding: 5px;
-    margin-left: 8px;
+    left: 0;
+    right: 0;
+
+    display: block;
+    margin: auto;
 }
 
 .pairing{
@@ -293,8 +327,7 @@ nav{
 }
 
 
-.newsletter{
-    margin: 10px;
+#newsletter{
     border-radius: 16px;
     padding: 10px;
     padding-top: 30px;
@@ -303,7 +336,10 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 320px;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 120px;
 }
 
 .stay-in-touch{
@@ -350,6 +386,7 @@ footer{
     width: 74px;
     height: 82px;
     margin: 0 auto;
+    margin-top: 100px;
     filter: invert(30%) sepia(6%) saturate(3661%) hue-rotate(314deg) brightness(100%) contrast(87%);
 }
 
@@ -359,10 +396,71 @@ footer{
     color: gray;
     font-weight: bold;
     letter-spacing: 3px;
+    margin: 20px;
 }
 
 @media only screen and (min-width: 678px) {
-    /* .container{
+    
+    nav{
+        justify-content: center;
+    }
+    
+    #menu-open{
         display: none;
-    } */
+    }
+
+    #myLinks{
+        display: inline-flex;
+        width: 500px;
+        align-items: center;
+        margin: 0 64px;
+    }
+
+    .ways-to-eat-container{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .container{
+        margin: 0 auto;
+    }
+
+    .slide-pic{
+        width: 90%;
+    }
+
+    .prev, .next {
+    position: absolute;
+    bottom: 45%;
+  }
+
+  .toast-description{
+    display: none;
+  }
+
+  .thumbs{
+      display: none;
+  }
+
+  .desktop-thumb{
+      display: grid;
+  }
+
+  .caption{
+      width: 300px;
+      margin: 20px;
+      font-size: 14px;
+      line-height: 22px;
+  }
+
+  .video-pic{
+    width: 50%;
+  }
+
+  .makeit{
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
 }
