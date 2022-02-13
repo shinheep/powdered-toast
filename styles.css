@@ -7,6 +7,42 @@ body{
     margin: 0;
 }
 
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    background: #844646;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    margin: 0 auto;
+  }
+
+.menuItem{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    letter-spacing: 3px;
+}
+  
+  .showMenu {
+    transform: translateY(0);
+  }
+
+.icons-for-open-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+
 #nav-icon{
     width: 40px;
     height: 44px;
@@ -14,12 +50,12 @@ body{
     margin: 10px;
 }
 
-#menu-open{
+.menuIcon{
     margin: 10px;
+    display: block;
 }
 
-#menu-close{
-    display: none;
+.closeIcon{
     margin: 10px;
 }
 
@@ -46,6 +82,14 @@ header{
     
 }
 
+.powder-texture-banner{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -20px;
+    padding: 0;
+
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -65,7 +109,7 @@ nav{
 
 #about{
     text-align: center;
-    width: 320px;
+    width: 280px;
     border-radius: 16px;
     margin: 10px;
     padding: 10px;
@@ -89,6 +133,13 @@ nav{
     text-transform: uppercase;
 }
 
+.divider-line{
+    border: 3px solid #844646;
+    width: 48px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
 .about-text{
 }
 
@@ -99,7 +150,7 @@ nav{
 
 #ways-to-eat{
     margin: 20px;
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
 }
 
@@ -131,7 +182,7 @@ nav{
 
   .slide-pic{
       border-radius: 16px;
-      width: 320px;
+      width: 300px;
       position: relative;
       left: 0;
       right: 0;
@@ -228,7 +279,7 @@ nav{
 
 #amazing-everytime{
     position: relative;
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
 }
 
@@ -262,7 +313,7 @@ nav{
 
 .video-pic{
     border-radius: 20px;
-    width: 320px;
+    width: 300px;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -272,7 +323,7 @@ nav{
 #pairing-is-caring{
     text-align: center;
     position: relative;
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 48px;
@@ -337,9 +388,13 @@ nav{
     align-items: center;
     justify-content: center;
     height: 320px;
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
     margin-top: 120px;
+}
+
+.powder-texture-newsletter{
+    margin-top: -40px;
 }
 
 .stay-in-touch{
@@ -404,8 +459,12 @@ footer{
     nav{
         justify-content: center;
     }
+
+    .menu{
+        display: none;
+    }
     
-    #menu-open{
+    .menuIcon{
         display: none;
     }
 
