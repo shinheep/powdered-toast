@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: "Roboto";
+    scroll-behavior: smooth;
 }
 
 body{
@@ -50,13 +51,25 @@ body{
     margin: 10px;
 }
 
+#nav-icon:hover{
+    cursor: pointer;
+}
+
 .menuIcon{
-    margin: 10px;
+    margin: 18px;
     display: block;
+}
+
+.menuIcon:hover{
+    cursor: pointer;
 }
 
 .closeIcon{
     margin: 10px;
+}
+
+.closeIcon:hover{
+    cursor: pointer;
 }
 
 #banner{
@@ -141,6 +154,9 @@ nav{
 }
 
 .about-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(170, 169, 169);
 }
 
 .history-text{
@@ -152,6 +168,7 @@ nav{
     margin: 20px;
     width: 280px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .ways-to-eat-title{
@@ -164,6 +181,7 @@ nav{
 .ways-to-eat-text{
     font-family: 16px;
     line-height: 22px;
+    color: rgb(170, 169, 169);
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -199,10 +217,9 @@ nav{
   .next {
     cursor: pointer;
     position: absolute;
-    bottom: 23%;
+    bottom: 28%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
     color: white;
     font-size: 15px;
     user-select: none;
@@ -298,7 +315,9 @@ nav{
 }
 
 .amazing-everytime-text{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(170, 169, 169);
 }
 
 .video{
@@ -306,7 +325,15 @@ nav{
     width: 50%;
 }
 
+#video-by{
+    font-size: 14px;
+    color: rgb(170, 169, 169);
+    line-height: 20px;
+
+}
+
 #video-credit{
+    font-size: 14px;
     text-decoration: underline;
     color: #844646;
 }
@@ -338,7 +365,9 @@ nav{
 }
 
 .pairing-is-caring-text{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(170, 169, 169);
 }
 
 .pairings{
@@ -387,8 +416,8 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 320px;
-    width: 280px;
+    height: 300px;
+    width: 300px;
     margin: 0 auto;
     margin-top: 120px;
 }
@@ -458,6 +487,9 @@ footer{
     
     nav{
         justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 100
     }
 
     .menu{
@@ -481,6 +513,11 @@ footer{
         height: 600px;
     }
 
+    #ways-to-eat{
+        width: 400px;
+        height: 500px;
+    }
+
     .container{
         margin: 0 auto;
     }
@@ -491,7 +528,7 @@ footer{
 
     .prev, .next {
     position: absolute;
-    bottom: 45%;
+    bottom: 40%;
   }
 
   .toast-description{

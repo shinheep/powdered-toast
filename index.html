@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Powdered Toast</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -18,13 +18,20 @@
     <header>
 
         <nav>
-            <img id="nav-icon" src="assets/logo-navigation.svg" alt="nav-icon"/>
+            
+            <!-- Pop up nav Start -->
+            <a href="#">
+                <img id="nav-icon" src="assets/logo-navigation.svg" alt="nav-icon"/>
+            </a>
 
             <div class="menu">
 
                 <div class="icons-for-open-menu">
 
-                    <img id="nav-icon" src="assets/logo-navigation.svg" alt="nav-icon"/>
+
+                    <a href="#">
+                        <img id="nav-icon" src="assets/logo-navigation.svg" alt="nav-icon"/>
+                    </a>
 
                     <img class="closeIcon" src="assets/menu-close.svg" alt="menu-close"/>
 
@@ -37,6 +44,11 @@
                 <li><a class="menuItem" href="#newsletter">Newsletter</a></li>
 
             </div>
+
+            <!-- Pop up nav End -->
+
+
+            <!-- Regular Nav Start -->
             
             <div id="myLinks">
                 <a href="#about">About</a>
@@ -49,22 +61,28 @@
             <div class="hamburger">
                 <img class="menuIcon" src="assets/menu.svg" alt="menu-open"/>
                 
-                <!-- <img class="closeIcon" src="assets/menu-close.svg" alt="menu-close"/>   -->
             </div>
+
+            <!-- Regular Nav End -->
 
             
 
         </nav>
 
-
-
+        <!-- Hero Landing Section Start -->
+        
         <img id="banner" src="assets/logo-banner.svg" alt="banner" />
 
         <img class="powder-texture-banner" src="assets/powder-texture-banner.svg" alt="powder-texture"/>
 
+        <!-- Hero Landing Section End -->
+
     </header>
 
     <main>
+        
+        <!-- About Section Start -->
+        
         <div id="about">
             <div class="about-title">About <br/>powdered<br/> toast</div>
             <h4 class="about-header"> The King of Sunrise Flavor</h4>
@@ -73,6 +91,10 @@
 
             <p class="history-text">The rest is history.</p>
         </div>
+
+        <!-- About Section End -->
+
+        <!-- Eat it Section Start -->
 
         <div class="ways-to-eat-container">
             <div id="ways-to-eat">
@@ -94,6 +116,10 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Eat it Section End -->
+
+            <!-- Image Slideshow Section Start -->
 
             <div class="container">
 
@@ -134,6 +160,10 @@
             </div>
         </div>
 
+        <!-- Image Slideshow Section End -->
+
+
+        <!-- Make it Section Start -->
 
         <div class="makeit">
             <div id="amazing-everytime">
@@ -141,13 +171,16 @@
                 <div class="amazing-everytime-header">Keep it simple</div>
                 <p class="amazing-everytime-text">Here's a 5 minute video on how to make classic powdered toast in any kitchen.</p>
 
-                <p>By <span id="video-credit">Crouton Crackerjacks</span></p>
+                <p><span id="video-by">By</span> <a href="https://www.youtube.com/watch?v=r1ZLSbQ0r0I&t=6s&ab_channel=CroutonCrackerjacks" target="blank" id="video-credit">Crouton Crackerjacks</a></p>
             </div>
 
                 
                 <img class="video-pic" src="assets/video-how-to.jpg" />
         </div>
 
+        <!-- Make it Section End -->
+
+        <!-- Pair it Section Start -->
 
         <div id="pairing-is-caring">
             <div class="pairing-is-caring-title">Pairing is caring</div>
@@ -184,6 +217,10 @@
 
         </div>
 
+        <!-- Pair it Section End -->
+
+        <!-- Newsletter Section Start -->
+
         <div id="newsletter">
             <div class="stay-in-touch">Stay in touch with the toastiest newsletter</div>
             <div>
@@ -196,10 +233,16 @@
 
         <img class="powder-texture-newsletter" src="assets/powder-texture-newsletter.svg" alt="powder-texture-newsletter"/>
 
+        <!-- Newsletter Section End -->
+
+        <!-- Footer Start -->
+
         <footer>
             <img id="toast-footer" src="assets/logo-footer.svg" alt="footer"/>
             <div id="footer-text">2022 Powdered Toast Company. All Rights Reserved.</div>
         </footer>
+
+        <!-- Footer End -->
             
         
 
