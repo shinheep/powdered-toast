@@ -16,8 +16,8 @@ Hello! Welcome to my version of Powdered Toast! This was built off a given Figma
 
 View the gif of the mobile design here:
 
-<img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794917/Screen_Recording_2022-02-13_at_3_16_19_PM_AdobeCreativeCloudExpress_v2fdpf.gif"/>
+<!-- <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794917/Screen_Recording_2022-02-13_at_3_16_19_PM_AdobeCreativeCloudExpress_v2fdpf.gif"/> -->
 
 View the gif of the desktop design here:
 
-<img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794987/Screen_Recording_2022-02-13_at_3_17_34_PM_AdobeCreativeCloudExpress_yndxvu.gif"/>
+<!-- <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794987/Screen_Recording_2022-02-13_at_3_17_34_PM_AdobeCreativeCloudExpress_yndxvu.gif"/> -->
