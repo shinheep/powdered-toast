@@ -90,6 +90,25 @@ body{
 
 #down-arrow{
     display: none;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+0% {
+    transform: translateY(-10px);
+}
+50% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(0);
+}
 }
 
 #down-arrow:hover{
@@ -539,7 +558,7 @@ footer{
     
         display: block;
         margin: auto;
-        margin-top: 380px
+        margin-top: 380px;
     }
 
     #about{
