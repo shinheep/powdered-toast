@@ -263,12 +263,14 @@ nav{
     position: absolute;
     left: 0;
     right: 0;
+    color:rgb(112, 110, 110);
   }
 
   .slide-title{
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 3px;
+      color: black;
   }
 
 
