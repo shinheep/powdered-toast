@@ -91,15 +91,15 @@ header{
     background: url("Assets/banner-toast.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(100%);
+    filter: brightness(70%);
     
 }
 
 .powder-texture-banner{
     position: absolute;
     bottom: 0;
-    margin-bottom: -20px;
     padding: 0;
+    width: 100%;
 
 }
 
@@ -423,7 +423,9 @@ nav{
 }
 
 .powder-texture-newsletter{
-    margin-top: -40px;
+    position: absolute;
+    margin-top: 123px;
+    width: 320px;
 }
 
 .stay-in-touch{
