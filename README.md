@@ -8,16 +8,27 @@
 
 ## Project Links
 
-TBD
+[Powdered-Toast] (https://shinheep.github.io/powdered-toast/)
 
 ## Project Description
 
-Hello! Welcome to my version of Powdered Toast! This was built off a given Figma design. Built with HTML, CSS, and vanilla Javascript.
+ ✨ Hello! Welcome to Shinhee's version of Powdered Toast! This was built off a given Figma design. Built with HTML, CSS, and vanilla Javascript. ✨
 
-View the gif of the mobile design here:
+View screenshots of the mobile design here:
 
-<!-- <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794917/Screen_Recording_2022-02-13_at_3_16_19_PM_AdobeCreativeCloudExpress_v2fdpf.gif"/> -->
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824639/Screen_Shot_2022-02-13_at_11.37.20_PM_ulh1di.png)
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824638/Screen_Shot_2022-02-13_at_11.39.36_PM_fk6qas.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824638/Screen_Shot_2022-02-13_at_11.38.20_PM_nhoyv1.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824638/Screen_Shot_2022-02-13_at_11.38.31_PM_iavonw.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824638/Screen_Shot_2022-02-13_at_11.38.49_PM_dvz6ps.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824638/Screen_Shot_2022-02-13_at_11.39.01_PM_jp0nqf.png "Optional title")
 
-View the gif of the desktop design here:
 
-<!-- <img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644794987/Screen_Recording_2022-02-13_at_3_17_34_PM_AdobeCreativeCloudExpress_yndxvu.gif"/> -->
+View screenshots of the desktop design here:
+
+
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824642/Screen_Shot_2022-02-13_at_11.40.05_PM_kjnbcy.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824644/Screen_Shot_2022-02-13_at_11.40.17_PM_hul29s.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824642/Screen_Shot_2022-02-13_at_11.40.30_PM_bfln31.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824645/Screen_Shot_2022-02-13_at_11.40.42_PM_ywikid.png "Optional title")
+![Alt text](https://res.cloudinary.com/dxqwpud0l/image/upload/v1644824642/Screen_Shot_2022-02-13_at_11.40.49_PM_nxqwp6.png "Optional title")
