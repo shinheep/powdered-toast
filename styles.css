@@ -30,7 +30,9 @@ body{
     display: flex;
     justify-content: center;
     margin: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 24px;
 }
   
   .showMenu {
@@ -86,12 +88,20 @@ body{
     margin: auto;
 }
 
+#down-arrow{
+    display: none;
+}
+
+#down-arrow:hover{
+    cursor: pointer;
+}
+
 header{
     height: 600px;
-    background: url("Assets/banner-toast.jpg");
+    background: linear-gradient(rgba(22, 22, 22, 0.5), rgba(32, 32, 32, 0.5)), url("Assets/banner-toast.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(70%);
+    filter: brightness(100%);
     
 }
 
@@ -99,6 +109,7 @@ header{
     position: absolute;
     bottom: 0;
     padding: 0;
+    margin: 0;
     width: 100%;
 
 }
@@ -196,6 +207,7 @@ nav{
   
   .mySlides {
     display: none;
+    margin-bottom: 20px;
   }
 
   .slide-pic{
@@ -206,6 +218,7 @@ nav{
       right: 0;
       display: block;
       margin: auto;
+      margin-top: 20px;
   }
   
   .cursor {
@@ -217,7 +230,7 @@ nav{
   .next {
     cursor: pointer;
     position: absolute;
-    bottom: 28%;
+    bottom: 24%;
     width: auto;
     padding: 16px;
     color: white;
@@ -294,10 +307,15 @@ nav{
     justify-content: center;
   }
 
+.makeit{
+    margin-top: 120px;
+}
+
 #amazing-everytime{
     position: relative;
     width: 280px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .amazing-everytime-title{
@@ -347,6 +365,7 @@ nav{
     margin: 0 auto;
 }
 
+
 #pairing-is-caring{
     text-align: center;
     position: relative;
@@ -390,7 +409,6 @@ nav{
 
 .pairing{
     width: 150px;
-    height: 230px;
 }
 
 .pairing-title{
@@ -509,6 +527,24 @@ footer{
         margin: 0 64px;
     }
 
+    #down-arrow{
+        filter: invert(100%);
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    
+        display: block;
+        margin: auto;
+        margin-top: 380px
+    }
+
+    #about{
+        width: 400px;
+        
+    }
+
     .ways-to-eat-container{
         display: flex;
         justify-content: center;
@@ -531,6 +567,7 @@ footer{
     .prev, .next {
     position: absolute;
     bottom: 40%;
+    display: none;
   }
 
   .toast-description{
@@ -561,4 +598,60 @@ footer{
       flex-direction: row-reverse;
   }
 
+  #pairing-is-caring{
+    width: 432px;
+
+  }
+
+  #newsletter{
+    height: 432px;
+    width: 432px;
+  }
+
+  .powder-texture-newsletter{
+    position: absolute;
+    margin-top: 185px;
+    width: 435px;
 }
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .pairings{
+        width: 100%;
+      }
+    
+      .pairing-pic{
+        width: 280px;
+        height: 280px;
+      }
+    
+      .pairing{
+          width: 280px;
+          margin: 10px;
+      }
+
+      .slide-pic{
+        width: 950px;
+        height: 572px;
+      }
+
+      #amazing-everytime{
+        position: relative;
+        width: 280px;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        margin: auto;
+
+      }
+
+      .video-pic{
+        width: 950px;
+        height: 572px;
+      }
+};
