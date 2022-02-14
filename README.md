@@ -8,7 +8,7 @@
 
 ## Project Links
 
-[Powdered-Toast] (https://shinheep.github.io/powdered-toast/)
+[Powdered-Toast](https://shinheep.github.io/powdered-toast/)
 
 ## Project Description
 
