@@ -45,8 +45,14 @@ body{
     margin-top: -60px;
 }
 
-
 #nav-icon{
+    width: 40px;
+    height: 44px;
+    filter: invert(100%);
+    margin: 10px;
+}
+
+#nav-icon2{
     width: 40px;
     height: 44px;
     filter: invert(100%);
@@ -55,6 +61,8 @@ body{
 
 #nav-icon:hover{
     cursor: pointer;
+    filter: invert(30%) sepia(6%) saturate(3661%) hue-rotate(314deg) brightness(100%) contrast(87%);
+    transition-duration: 150ms; 
 }
 
 .menuIcon{
@@ -64,6 +72,8 @@ body{
 
 .menuIcon:hover{
     cursor: pointer;
+    filter: invert(30%) sepia(6%) saturate(3661%) hue-rotate(314deg) brightness(100%) contrast(87%);
+    transition-duration: 150ms; 
 }
 
 .closeIcon{
@@ -138,6 +148,8 @@ nav{
     justify-content: space-between;
 }
 
+
+
 #myLinks{
     text-align: center;
     display: none;
@@ -179,7 +191,7 @@ nav{
 .divider-line{
     border: 3px solid #844646;
     width: 48px;
-    border-radius: 20px;
+    border-radius: 4px;
     margin: 0 auto;
 }
 
@@ -483,6 +495,8 @@ nav{
     height: 40px;
     width: 250px;
     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 button{
@@ -495,10 +509,15 @@ button{
     text-align: center;
     border-radius: 16px;
     width: 100px;
-    height: 40px;
+    height: 44px;
     margin-top: 10px;
     display: flex;
     align-items: center;
+}
+
+button:hover{
+    border: 3px solid white;
+    cursor: pointer;
 }
 
 footer{
@@ -548,6 +567,14 @@ footer{
         margin: 0 64px;
     }
 
+
+
+    #myLinks a:hover{
+        color: #844646;
+        text-decoration: underline;
+        transition-duration: 150ms; 
+    }
+
     #down-arrow{
         filter: invert(100%);
         width: 48px;
@@ -566,10 +593,20 @@ footer{
         
     }
 
+    .about-title{
+        font-size: 72px;
+        line-height: 80px;
+    }
+
     .ways-to-eat-container{
         display: flex;
         justify-content: center;
         height: 600px;
+    }
+
+    .ways-to-eat-title{
+        font-size: 56px;
+        line-height: 64px;
     }
 
     #ways-to-eat{
@@ -608,6 +645,7 @@ footer{
       margin: 20px;
       font-size: 14px;
       line-height: 22px;
+      color:rgb(112, 110, 110)
   }
 
   .video-pic{
