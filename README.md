@@ -3,7 +3,9 @@
 
 ## Project Description
 
- ✨ Hello! Welcome to Shinhee's version of Powdered Toast! This was built off a given Figma design. Built with HTML, CSS, and vanilla Javascript. ✨
+✨ Hello! Welcome to Shinhee's version of Powdered Toast! This was built off a given Figma design. Built with HTML, CSS, and vanilla Javascript. ✨
+
+🍞 Please feel free to let me know if you are having any issues with the site! 🍞
 
 
 ## Project Links
